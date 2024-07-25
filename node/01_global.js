@@ -6,3 +6,10 @@
 
 console.log(__dirname);
 console.log(__filename);
+
+const name = require("./01_names");
+const sayHi = require("./01_function");
+
+sayHi("susan");
+sayHi(name.john);
+sayHi(name.peter);
